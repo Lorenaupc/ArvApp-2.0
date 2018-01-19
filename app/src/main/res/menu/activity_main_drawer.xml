@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Normal mode">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/nav_mode"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="Mode" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Flock mode">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_flockMode"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Flock" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Help"
+            />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@android:drawable/sym_call_outgoing"
+            android:title="Call Emergency Services"
+            />
+    </group>
+
+</menu>
